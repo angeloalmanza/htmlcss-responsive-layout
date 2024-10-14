@@ -24,6 +24,10 @@
     padding-bottom: 20px;
 }
 
+.center{
+    text-align: center;
+}
+
 /* HEADER */
 .header{
     height: 80px;
@@ -105,11 +109,6 @@ li{
     display: none;
 }
 
-.presentation{
-    /* debug */
-    border: 1px solid violet;
-}
-
 .img{
     width: 40%;
 }
@@ -117,6 +116,15 @@ li{
 .banner{
     width: 100%;
     display: none;
+}
+
+.line{
+    width: 50px;
+    border: 1px solid #ff9613;
+}
+
+.text{
+    line-height: 2;
 }
 
 /* FOOTER */
@@ -155,6 +163,7 @@ li{
     .img{
         float: left;
         width: 30%;
+        margin-right: 10px;
     }
 
     .banner{
@@ -203,6 +212,7 @@ li{
     .img{
         float: left;
         width: 30%;
+        margin-right: 10px;
     }
 
     .banner{
