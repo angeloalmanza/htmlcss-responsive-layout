@@ -265,3 +265,16 @@ a{
         padding: 0 10px;
     }
 }
+
+/* Bonus */
+@media screen and (min-width: 576px){   
+    .img{
+        float: left;
+        width: 30%;
+        margin-right: 10px;
+    } 
+
+    .button{
+        width: 100px;
+    }
+}
