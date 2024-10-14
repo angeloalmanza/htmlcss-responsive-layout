@@ -130,16 +130,31 @@ li{
 /* FOOTER */
 .footer-block{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-col{
     width: 100%;
+    margin: 10px 0 5px;
+    text-align: center;
+    line-height: 2;
 }
 
 .footer{
-    /* debug */
-    background-color: chartreuse;
+    background-color: #7c69a4;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+}
+
+.a-footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0 40px;
+    justify-content: center;
 }
 
 /* *********** */
@@ -238,5 +253,15 @@ li{
     /* FOOTER */
     .footer-col{
         width: 50%;
+        text-align: start;
+    }
+
+    .a-footer{
+        flex-wrap: nowrap;
+        justify-content: end;
+    }
+
+    .footer-block{
+        padding: 0 10px;
     }
 }
